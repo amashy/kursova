@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAD12DA7-8049-49FC-9CF4-247800F62134}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kursova</RootNamespace>
+    <AssemblyName>kursova</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentSelectScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentSelectScreen.Designer.cs">
+      <DependentUpon>AgentSelectScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MapSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapSelect.Designer.cs">
+      <DependentUpon>MapSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeScreen.Designer.cs">
+      <DependentUpon>WelcomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgentSelectScreen.resx">
+      <DependentUpon>AgentSelectScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapSelect.resx">
+      <DependentUpon>MapSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeScreen.resx">
+      <DependentUpon>WelcomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\agents icons\brimstone_icon.png" />
+    <Content Include="images\agents icons\cypher_icon.png" />
+    <Content Include="images\agents icons\fade_icon.png" />
+    <Content Include="images\agents icons\harbor_icon.png" />
+    <Content Include="images\agents icons\kayo_icon.png" />
+    <Content Include="images\agents icons\killjoy_icon.png" />
+    <Content Include="images\agents icons\raze_icon.png" />
+    <Content Include="images\agents icons\sova_icon.png" />
+    <Content Include="images\agents icons\viper_icon.png" />
+    <Content Include="images\agents icons\your_icon.png" />
+    <Content Include="images\map images\ascent_map.jpeg" />
+    <Content Include="images\map images\fracture_map.jpeg" />
+    <Content Include="images\map images\heaven_map.jpeg" />
+    <Content Include="images\map images\icebox_map.jpeg" />
+    <Content Include="images\map images\peral_map.jpeg" />
+    <Content Include="images\map images\split_map.jpeg" />
+    <Content Include="images\other images\background.png" />
+    <Content Include="images\other images\back_arrow.png" />
+    <Content Include="images\other images\question mark.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
