@@ -85,7 +85,7 @@
             this.Brimstone.BackgroundImage = global::kursova.Properties.Resources.brimstone_icon;
             this.Brimstone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Brimstone.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Brimstone.Location = new System.Drawing.Point(54, 120);
+            this.Brimstone.Location = new System.Drawing.Point(54, 77);
             this.Brimstone.Name = "Brimstone";
             this.Brimstone.Size = new System.Drawing.Size(77, 68);
             this.Brimstone.TabIndex = 5;
@@ -111,7 +111,7 @@
             this.Raze.BackgroundImage = global::kursova.Properties.Resources.raze_icon;
             this.Raze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Raze.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Raze.Location = new System.Drawing.Point(485, 269);
+            this.Raze.Location = new System.Drawing.Point(485, 424);
             this.Raze.Name = "Raze";
             this.Raze.Size = new System.Drawing.Size(77, 68);
             this.Raze.TabIndex = 7;
@@ -124,7 +124,7 @@
             this.Killjoy.BackgroundImage = global::kursova.Properties.Resources.killjoy_icon;
             this.Killjoy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Killjoy.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Killjoy.Location = new System.Drawing.Point(276, 269);
+            this.Killjoy.Location = new System.Drawing.Point(276, 424);
             this.Killjoy.Name = "Killjoy";
             this.Killjoy.Size = new System.Drawing.Size(77, 68);
             this.Killjoy.TabIndex = 8;
@@ -150,7 +150,7 @@
             this.Harbor.BackgroundImage = global::kursova.Properties.Resources.harbor_icon;
             this.Harbor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Harbor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Harbor.Location = new System.Drawing.Point(698, 120);
+            this.Harbor.Location = new System.Drawing.Point(698, 77);
             this.Harbor.Name = "Harbor";
             this.Harbor.Size = new System.Drawing.Size(77, 68);
             this.Harbor.TabIndex = 10;
@@ -163,7 +163,7 @@
             this.Fade.BackgroundImage = global::kursova.Properties.Resources.fade_icon;
             this.Fade.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Fade.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Fade.Location = new System.Drawing.Point(485, 120);
+            this.Fade.Location = new System.Drawing.Point(485, 77);
             this.Fade.Name = "Fade";
             this.Fade.Size = new System.Drawing.Size(77, 68);
             this.Fade.TabIndex = 11;
@@ -176,7 +176,7 @@
             this.Cypher.BackgroundImage = global::kursova.Properties.Resources.cypher_icon;
             this.Cypher.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Cypher.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Cypher.Location = new System.Drawing.Point(276, 120);
+            this.Cypher.Location = new System.Drawing.Point(276, 77);
             this.Cypher.Name = "Cypher";
             this.Cypher.Size = new System.Drawing.Size(77, 68);
             this.Cypher.TabIndex = 12;
@@ -189,7 +189,7 @@
             this.Yoru.BackgroundImage = global::kursova.Properties.Resources.your_icon;
             this.Yoru.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Yoru.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Yoru.Location = new System.Drawing.Point(597, 409);
+            this.Yoru.Location = new System.Drawing.Point(698, 424);
             this.Yoru.Name = "Yoru";
             this.Yoru.Size = new System.Drawing.Size(77, 68);
             this.Yoru.TabIndex = 13;
@@ -202,7 +202,7 @@
             this.Viper.BackgroundImage = global::kursova.Properties.Resources.viper_icon;
             this.Viper.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Viper.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Viper.Location = new System.Drawing.Point(164, 409);
+            this.Viper.Location = new System.Drawing.Point(54, 424);
             this.Viper.Name = "Viper";
             this.Viper.Size = new System.Drawing.Size(77, 68);
             this.Viper.TabIndex = 14;
@@ -267,7 +267,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label1.Location = new System.Drawing.Point(36, 191);
+            this.label1.Location = new System.Drawing.Point(36, 148);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 26);
             this.label1.TabIndex = 16;
@@ -279,7 +279,7 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label3.Location = new System.Drawing.Point(249, 191);
+            this.label3.Location = new System.Drawing.Point(249, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 26);
             this.label3.TabIndex = 17;
@@ -292,7 +292,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label4.Location = new System.Drawing.Point(467, 191);
+            this.label4.Location = new System.Drawing.Point(467, 148);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(124, 26);
             this.label4.TabIndex = 18;
@@ -304,7 +304,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label5.Location = new System.Drawing.Point(674, 191);
+            this.label5.Location = new System.Drawing.Point(674, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 26);
             this.label5.TabIndex = 19;
@@ -313,10 +313,10 @@
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label6.Location = new System.Drawing.Point(249, 340);
+            this.label6.Location = new System.Drawing.Point(249, 495);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(124, 26);
             this.label6.TabIndex = 20;
@@ -342,7 +342,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label8.Location = new System.Drawing.Point(578, 480);
+            this.label8.Location = new System.Drawing.Point(679, 495);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(124, 26);
             this.label8.TabIndex = 22;
@@ -354,7 +354,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label9.Location = new System.Drawing.Point(467, 352);
+            this.label9.Location = new System.Drawing.Point(467, 495);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 26);
             this.label9.TabIndex = 22;
@@ -378,7 +378,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label11.Location = new System.Drawing.Point(144, 480);
+            this.label11.Location = new System.Drawing.Point(34, 495);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 26);
             this.label11.TabIndex = 24;

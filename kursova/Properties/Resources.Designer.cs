@@ -63,6 +63,26 @@ namespace kursova.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4k_Wallpapers___40_000__ipad_wallpapers_4k___4k_wallpaper_Pc {
+            get {
+                object obj = ResourceManager.GetObject("4k Wallpapers - 40_000+ ipad wallpapers 4k - 4k wallpaper Pc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _61095e995f1e5aca55aa87ec42243e81 {
+            get {
+                object obj = ResourceManager.GetObject("61095e995f1e5aca55aa87ec42243e81", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ascent_map {
             get {
                 object obj = ResourceManager.GetObject("ascent_map", resourceCulture);
@@ -133,9 +153,30 @@ namespace kursova.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fracture_map2 {
+            get {
+                object obj = ResourceManager.GetObject("fracture_map2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap harbor_icon {
             get {
                 object obj = ResourceManager.GetObject("harbor_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HD_wallpaper_blue_pixel_texture_blue_squares_texture_pixel_background_blue_small_tile_texture_creative_blue_background_blue_abstract_background {
+            get {
+                object obj = ResourceManager.GetObject("HD-wallpaper-blue-pixel-texture-blue-squares-texture-pixel-background-blue-small-" +
+                        "tile-texture-creative-blue-background-blue-abstract-background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +247,16 @@ namespace kursova.Properties {
         internal static System.Drawing.Bitmap raze_icon {
             get {
                 object obj = ResourceManager.GetObject("raze_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_1 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

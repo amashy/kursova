@@ -43,6 +43,7 @@ namespace kursova
             this.Hide();
             MapSelect mapSelect = new MapSelect();
             mapSelect.Show();
+            
         }
 
         private void Cypher_Click(object sender, EventArgs e)

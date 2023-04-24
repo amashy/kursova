@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace kursova
 {
@@ -37,6 +38,11 @@ namespace kursova
         private void info_icon_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Тут представлені лише ті карти, які присутні в поточному 'мап-пулі'");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

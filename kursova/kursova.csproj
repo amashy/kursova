@@ -46,36 +46,576 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgentSelectScreen.cs">
+    <Compile Include="lineup screens\Cypher\CypherAsc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgentSelectScreen.Designer.cs">
+    <Compile Include="lineup screens\Cypher\CypherAsc.Designer.cs">
+      <DependentUpon>CypherAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherFract.Designer.cs">
+      <DependentUpon>CypherFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherHeaven.Designer.cs">
+      <DependentUpon>CypherHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherIceb.Designer.cs">
+      <DependentUpon>CypherIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherPearl.Designer.cs">
+      <DependentUpon>CypherPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Cypher\CypherSplit.Designer.cs">
+      <DependentUpon>CypherSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeAsc.Designer.cs">
+      <DependentUpon>FadeAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeFract.Designer.cs">
+      <DependentUpon>FadeFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeHeaven.Designer.cs">
+      <DependentUpon>FadeHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeIceb.Designer.cs">
+      <DependentUpon>FadeIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadePearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadePearl.Designer.cs">
+      <DependentUpon>FadePearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Fade\FadeSplit.Designer.cs">
+      <DependentUpon>FadeSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoAsc.Designer.cs">
+      <DependentUpon>KayoAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoFract.Designer.cs">
+      <DependentUpon>KayoFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoHeaven.Designer.cs">
+      <DependentUpon>KayoHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoIceb.Designer.cs">
+      <DependentUpon>KayoIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoPearl.Designer.cs">
+      <DependentUpon>KayoPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Kayo\KayoSplit.Designer.cs">
+      <DependentUpon>KayoSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyAsc.Designer.cs">
+      <DependentUpon>KillJoyAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyFract.Designer.cs">
+      <DependentUpon>KillJoyFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyHeaven.Designer.cs">
+      <DependentUpon>KillJoyHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyIceb.Designer.cs">
+      <DependentUpon>KillJoyIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoyPearl.Designer.cs">
+      <DependentUpon>KillJoyPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoySplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\KillJoy\KillJoySplit.Designer.cs">
+      <DependentUpon>KillJoySplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimHeaven.Designer.cs">
+      <DependentUpon>BrimHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimSplit.Designer.cs">
+      <DependentUpon>BrimSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimPearl.Designer.cs">
+      <DependentUpon>BrimPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimIceb.Designer.cs">
+      <DependentUpon>BrimIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimAsc.Designer.cs">
+      <DependentUpon>BrimAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeAsc.Designer.cs">
+      <DependentUpon>RazeAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeFract.Designer.cs">
+      <DependentUpon>RazeFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeHeaven.Designer.cs">
+      <DependentUpon>RazeHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeIceb.Designer.cs">
+      <DependentUpon>RazeIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazePearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazePearl.Designer.cs">
+      <DependentUpon>RazePearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Raze\RazeSplit.Designer.cs">
+      <DependentUpon>RazeSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaAsc.Designer.cs">
+      <DependentUpon>SovaAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaFract.Designer.cs">
+      <DependentUpon>SovaFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaHeaven.Designer.cs">
+      <DependentUpon>SovaHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaIceb.Designer.cs">
+      <DependentUpon>SovaIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaPearl.Designer.cs">
+      <DependentUpon>SovaPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Sova\SovaSplit.Designer.cs">
+      <DependentUpon>SovaSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruHeaven.Designer.cs">
+      <DependentUpon>YoruHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruIceb.Designer.cs">
+      <DependentUpon>YoruIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruAsc.Designer.cs">
+      <DependentUpon>YoruAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruFract.Designer.cs">
+      <DependentUpon>YoruFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruPearl.Designer.cs">
+      <DependentUpon>YoruPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Yoru\YoruSplit.Designer.cs">
+      <DependentUpon>YoruSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\AgentSelectScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\AgentSelectScreen.Designer.cs">
       <DependentUpon>AgentSelectScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Brim\BrimFract.Designer.cs">
+      <DependentUpon>BrimFract.cs</DependentUpon>
     </Compile>
     <Compile Include="GradientPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="MapSelect.cs">
+    <Compile Include="lineup screens\Harbor\HarborAsc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MapSelect.Designer.cs">
+    <Compile Include="lineup screens\Harbor\HarborAsc.Designer.cs">
+      <DependentUpon>HarborAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborFract.Designer.cs">
+      <DependentUpon>HarborFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborHeaven.Designer.cs">
+      <DependentUpon>HarborHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborIceb.Designer.cs">
+      <DependentUpon>HarborIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborPearl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborPearl.Designer.cs">
+      <DependentUpon>HarborPearl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Harbor\HarborSplit.Designer.cs">
+      <DependentUpon>HarborSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\MapSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\MapSelect.Designer.cs">
       <DependentUpon>MapSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="WelcomeScreen.cs">
+    <Compile Include="menus\WelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomeScreen.Designer.cs">
+    <Compile Include="menus\WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AgentSelectScreen.resx">
+    <Compile Include="lineup screens\Viper\ViperAsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperAsc.Designer.cs">
+      <DependentUpon>ViperAsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperFract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperFract.Designer.cs">
+      <DependentUpon>ViperFract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperHeaven.Designer.cs">
+      <DependentUpon>ViperHeaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperIceb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperIceb.Designer.cs">
+      <DependentUpon>ViperIceb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperPeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperPeral.Designer.cs">
+      <DependentUpon>ViperPeral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lineup screens\Viper\ViperSplit.Designer.cs">
+      <DependentUpon>ViperSplit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherAsc.resx">
+      <DependentUpon>CypherAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherFract.resx">
+      <DependentUpon>CypherFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherHeaven.resx">
+      <DependentUpon>CypherHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherIceb.resx">
+      <DependentUpon>CypherIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherPearl.resx">
+      <DependentUpon>CypherPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Cypher\CypherSplit.resx">
+      <DependentUpon>CypherSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadeAsc.resx">
+      <DependentUpon>FadeAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadeFract.resx">
+      <DependentUpon>FadeFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadeHeaven.resx">
+      <DependentUpon>FadeHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadeIceb.resx">
+      <DependentUpon>FadeIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadePearl.resx">
+      <DependentUpon>FadePearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Brim\BrimHeaven.resx">
+      <DependentUpon>BrimHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Brim\BrimSplit.resx">
+      <DependentUpon>BrimSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Brim\BrimPearl.resx">
+      <DependentUpon>BrimPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Brim\BrimIceb.resx">
+      <DependentUpon>BrimIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Brim\BrimAsc.resx">
+      <DependentUpon>BrimAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Fade\FadeSplit.resx">
+      <DependentUpon>FadeSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborAsc.resx">
+      <DependentUpon>HarborAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborFract.resx">
+      <DependentUpon>HarborFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborHeaven.resx">
+      <DependentUpon>HarborHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborIceb.resx">
+      <DependentUpon>HarborIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborPearl.resx">
+      <DependentUpon>HarborPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Harbor\HarborSplit.resx">
+      <DependentUpon>HarborSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoAsc.resx">
+      <DependentUpon>KayoAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoFract.resx">
+      <DependentUpon>KayoFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoHeaven.resx">
+      <DependentUpon>KayoHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoIceb.resx">
+      <DependentUpon>KayoIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoPearl.resx">
+      <DependentUpon>KayoPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Kayo\KayoSplit.resx">
+      <DependentUpon>KayoSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoyAsc.resx">
+      <DependentUpon>KillJoyAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoyFract.resx">
+      <DependentUpon>KillJoyFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoyHeaven.resx">
+      <DependentUpon>KillJoyHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoyIceb.resx">
+      <DependentUpon>KillJoyIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoyPearl.resx">
+      <DependentUpon>KillJoyPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\KillJoy\KillJoySplit.resx">
+      <DependentUpon>KillJoySplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazeAsc.resx">
+      <DependentUpon>RazeAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazeFract.resx">
+      <DependentUpon>RazeFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazeHeaven.resx">
+      <DependentUpon>RazeHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazeIceb.resx">
+      <DependentUpon>RazeIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazePearl.resx">
+      <DependentUpon>RazePearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Raze\RazeSplit.resx">
+      <DependentUpon>RazeSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaAsc.resx">
+      <DependentUpon>SovaAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaFract.resx">
+      <DependentUpon>SovaFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaHeaven.resx">
+      <DependentUpon>SovaHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaIceb.resx">
+      <DependentUpon>SovaIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaPearl.resx">
+      <DependentUpon>SovaPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Sova\SovaSplit.resx">
+      <DependentUpon>SovaSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperAsc.resx">
+      <DependentUpon>ViperAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperFract.resx">
+      <DependentUpon>ViperFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperHeaven.resx">
+      <DependentUpon>ViperHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperIceb.resx">
+      <DependentUpon>ViperIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperPeral.resx">
+      <DependentUpon>ViperPeral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Viper\ViperSplit.resx">
+      <DependentUpon>ViperSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruAsc.resx">
+      <DependentUpon>YoruAsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruFract.resx">
+      <DependentUpon>YoruFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruHeaven.resx">
+      <DependentUpon>YoruHeaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruIceb.resx">
+      <DependentUpon>YoruIceb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruPearl.resx">
+      <DependentUpon>YoruPearl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lineup screens\Yoru\YoruSplit.resx">
+      <DependentUpon>YoruSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\AgentSelectScreen.resx">
       <DependentUpon>AgentSelectScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MapSelect.resx">
+    <EmbeddedResource Include="lineup screens\Brim\BrimFract.resx">
+      <DependentUpon>BrimFract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\MapSelect.resx">
       <DependentUpon>MapSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomeScreen.resx">
+    <EmbeddedResource Include="menus\WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -112,8 +652,13 @@
     <Content Include="images\agents icons\sova_icon.png" />
     <Content Include="images\agents icons\viper_icon.png" />
     <Content Include="images\agents icons\your_icon.png" />
+    <Content Include="images\Lineups preview\4k Wallpapers - 40_000+ ipad wallpapers 4k - 4k wallpaper Pc.png" />
+    <Content Include="images\Lineups preview\61095e995f1e5aca55aa87ec42243e81.png" />
+    <Content Include="images\Lineups preview\HD-wallpaper-blue-pixel-texture-blue-squares-texture-pixel-background-blue-small-tile-texture-creative-blue-background-blue-abstract-background.png" />
+    <Content Include="images\Lineups preview\Screenshot_1.png" />
     <Content Include="images\map images\ascent_map.jpeg" />
     <Content Include="images\map images\fracture_map.jpeg" />
+    <Content Include="images\map images\fracture_map2.png" />
     <Content Include="images\map images\heaven_map.jpeg" />
     <Content Include="images\map images\icebox_map.jpeg" />
     <Content Include="images\map images\peral_map.jpeg" />
