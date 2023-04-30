@@ -58,5 +58,12 @@ namespace kursova.lineup_screens.Yoru
             Process.Start("https://lineupsvalorant.com/?id=533");
 
         }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
+        }
     }
 }

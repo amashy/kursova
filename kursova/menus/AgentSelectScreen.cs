@@ -25,7 +25,7 @@ namespace kursova
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("У виборі представлені лише агнети, яким є сенс дізнав**атися про 'Лайнапи', тобто мають метальні здібності");
+            MessageBox.Show("У виборі представлені лише агнети, яким є сенс дізнаватися про 'Лайнапи', тобто мають метальні здібності");
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -40,80 +40,90 @@ namespace kursova
 
         private void Brimstone_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
-            
         }
 
         private void Cypher_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Fade_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Harbor_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Sova_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Raze_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Killjoy_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Kayo_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Viper_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void Yoru_Click(object sender, EventArgs e)
         {
+            PictureBox selectedAgentPictureBox = (PictureBox)sender;
+            MapSelect mapSelectForm = new MapSelect(selectedAgentPictureBox.Name);
+            mapSelectForm.Show();
             this.Hide();
-            MapSelect mapSelect = new MapSelect();
-            mapSelect.Show();
         }
 
         private void back_arrow_Click(object sender, EventArgs e)
         {
             this.Hide();
             WelcomeScreen welcomeScreen = new WelcomeScreen();
-            welcomeScreen.Show();   
+            welcomeScreen.Show();
+            
         }
 
         private void label6_Click(object sender, EventArgs e)

@@ -21,5 +21,12 @@ namespace kursova.lineup_screens.Cypher
         {
             Application.Exit();
         }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
+        }
     }
 }

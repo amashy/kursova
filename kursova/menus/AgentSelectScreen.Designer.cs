@@ -414,6 +414,7 @@
             this.Controls.Add(this.Sova);
             this.Controls.Add(this.Brimstone);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AgentSelectScreen";
             this.Text = "AgentSelectScreen";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

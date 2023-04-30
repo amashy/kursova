@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace kursova
 {
-    public partial class Form1 : Form
+    public partial class BrimAsc : Form
     {
-        public Form1()
+        public BrimAsc()
         {
             InitializeComponent();
         }
@@ -46,6 +46,13 @@ namespace kursova
         private void close_icon_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
         }
     }
 }

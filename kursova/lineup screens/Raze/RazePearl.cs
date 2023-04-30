@@ -34,5 +34,12 @@ namespace kursova.lineup_screens.Raze
         {
             Process.Start("https://lineupsvalorant.com/?id=1409");
         }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
+        }
     }
 }

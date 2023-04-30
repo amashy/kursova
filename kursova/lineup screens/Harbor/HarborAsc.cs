@@ -42,5 +42,12 @@ namespace kursova.menus
         {
             Process.Start("https://www.youtube.com/watch?v=wKlDVV54skg");
         }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
+        }
     }
 }

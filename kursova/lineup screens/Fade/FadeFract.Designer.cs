@@ -34,6 +34,9 @@
             this.FadeFractALab = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.close_icon = new System.Windows.Forms.Label();
+            this.back_arrow = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).BeginInit();
             this.SuspendLayout();
             // 
             // FadeFractBBut
@@ -59,7 +62,7 @@
             this.FadeFractBLab.Name = "FadeFractBLab";
             this.FadeFractBLab.Size = new System.Drawing.Size(182, 125);
             this.FadeFractBLab.TabIndex = 27;
-            this.FadeFractBLab.Text = "Точка Б Дефолт";
+            this.FadeFractBLab.Text = "Точка Б";
             this.FadeFractBLab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.FadeFractBLab.Click += new System.EventHandler(this.FadeFractBLab_Click);
             // 
@@ -86,7 +89,7 @@
             this.FadeFractALab.Name = "FadeFractALab";
             this.FadeFractALab.Size = new System.Drawing.Size(182, 125);
             this.FadeFractALab.TabIndex = 25;
-            this.FadeFractALab.Text = "Точка А Дефолт";
+            this.FadeFractALab.Text = "Точка А ";
             this.FadeFractALab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.FadeFractALab.Click += new System.EventHandler(this.FadeFractALab_Click);
             // 
@@ -111,6 +114,31 @@
             this.close_icon.Text = "X";
             this.close_icon.Click += new System.EventHandler(this.close_icon_Click);
             // 
+            // back_arrow
+            // 
+            this.back_arrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.back_arrow.BackgroundImage = global::kursova.Properties.Resources.back_arrow;
+            this.back_arrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.back_arrow.Location = new System.Drawing.Point(2, 0);
+            this.back_arrow.Name = "back_arrow";
+            this.back_arrow.Size = new System.Drawing.Size(75, 56);
+            this.back_arrow.TabIndex = 32;
+            this.back_arrow.TabStop = false;
+            this.back_arrow.Click += new System.EventHandler(this.back_arrow_Click);
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(800, 56);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Оберіть точку";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FadeFract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,14 +146,18 @@
             this.BackgroundImage = global::kursova.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.back_arrow);
             this.Controls.Add(this.close_icon);
             this.Controls.Add(this.FadeFractBBut);
             this.Controls.Add(this.FadeFractBLab);
             this.Controls.Add(this.FadeFractABut);
             this.Controls.Add(this.FadeFractALab);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FadeFract";
             this.Text = "FadeFract";
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -138,5 +170,7 @@
         private System.Windows.Forms.Label FadeFractALab;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label close_icon;
+        private System.Windows.Forms.PictureBox back_arrow;
+        private System.Windows.Forms.Label label3;
     }
 }

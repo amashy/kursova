@@ -34,6 +34,9 @@
             this.CypherPearlALab = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.close_icon = new System.Windows.Forms.Label();
+            this.back_arrow = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).BeginInit();
             this.SuspendLayout();
             // 
             // CypherPearlBBut
@@ -47,6 +50,7 @@
             this.CypherPearlBBut.TabIndex = 23;
             this.CypherPearlBBut.Text = "Перейти";
             this.CypherPearlBBut.UseVisualStyleBackColor = false;
+            this.CypherPearlBBut.Click += new System.EventHandler(this.CypherPearlBBut_Click);
             // 
             // CypherPearlBLab
             // 
@@ -60,6 +64,7 @@
             this.CypherPearlBLab.TabIndex = 22;
             this.CypherPearlBLab.Text = "Точка Б Сетап";
             this.CypherPearlBLab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CypherPearlBLab.Click += new System.EventHandler(this.CypherPearlBLab_Click);
             // 
             // CypherPearlABut
             // 
@@ -72,6 +77,7 @@
             this.CypherPearlABut.TabIndex = 21;
             this.CypherPearlABut.Text = "Перейти";
             this.CypherPearlABut.UseVisualStyleBackColor = false;
+            this.CypherPearlABut.Click += new System.EventHandler(this.CypherPearlABut_Click);
             // 
             // CypherPearlALab
             // 
@@ -85,6 +91,7 @@
             this.CypherPearlALab.TabIndex = 20;
             this.CypherPearlALab.Text = "Точка А Сетап";
             this.CypherPearlALab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CypherPearlALab.Click += new System.EventHandler(this.CypherPearlALab_Click);
             // 
             // label2
             // 
@@ -107,6 +114,31 @@
             this.close_icon.Text = "X";
             this.close_icon.Click += new System.EventHandler(this.close_icon_Click);
             // 
+            // back_arrow
+            // 
+            this.back_arrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.back_arrow.BackgroundImage = global::kursova.Properties.Resources.back_arrow;
+            this.back_arrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.back_arrow.Location = new System.Drawing.Point(2, -1);
+            this.back_arrow.Name = "back_arrow";
+            this.back_arrow.Size = new System.Drawing.Size(75, 56);
+            this.back_arrow.TabIndex = 27;
+            this.back_arrow.TabStop = false;
+            this.back_arrow.Click += new System.EventHandler(this.back_arrow_Click);
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(800, 56);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Оберіть точку";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CypherPearl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,8 +152,12 @@
             this.Controls.Add(this.CypherPearlABut);
             this.Controls.Add(this.CypherPearlALab);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.back_arrow);
+            this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CypherPearl";
             this.Text = "CypherPearl";
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -134,5 +170,7 @@
         private System.Windows.Forms.Label CypherPearlALab;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label close_icon;
+        private System.Windows.Forms.PictureBox back_arrow;
+        private System.Windows.Forms.Label label3;
     }
 }

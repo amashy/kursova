@@ -36,6 +36,9 @@
             this.close_icon = new System.Windows.Forms.Label();
             this.KillJoyHeavenCBut = new System.Windows.Forms.Button();
             this.KillJoyHeavenCLab = new System.Windows.Forms.Label();
+            this.back_arrow = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).BeginInit();
             this.SuspendLayout();
             // 
             // KillJoyHeavenBBut
@@ -140,6 +143,31 @@
             this.KillJoyHeavenCLab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.KillJoyHeavenCLab.Click += new System.EventHandler(this.KillJoyHeavenCLab_Click);
             // 
+            // back_arrow
+            // 
+            this.back_arrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.back_arrow.BackgroundImage = global::kursova.Properties.Resources.back_arrow;
+            this.back_arrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.back_arrow.Location = new System.Drawing.Point(2, 0);
+            this.back_arrow.Name = "back_arrow";
+            this.back_arrow.Size = new System.Drawing.Size(75, 56);
+            this.back_arrow.TabIndex = 36;
+            this.back_arrow.TabStop = false;
+            this.back_arrow.Click += new System.EventHandler(this.back_arrow_Click);
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(800, 56);
+            this.label3.TabIndex = 35;
+            this.label3.Text = "Оберіть точку";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // KillJoyHeaven
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,8 +183,12 @@
             this.Controls.Add(this.KillJoyHeavenABut);
             this.Controls.Add(this.KillJoyHeavenALab);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.back_arrow);
+            this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KillJoyHeaven";
             this.Text = "KillJoyHeaven";
+            ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -171,5 +203,7 @@
         private System.Windows.Forms.Label close_icon;
         private System.Windows.Forms.Button KillJoyHeavenCBut;
         private System.Windows.Forms.Label KillJoyHeavenCLab;
+        private System.Windows.Forms.PictureBox back_arrow;
+        private System.Windows.Forms.Label label3;
     }
 }

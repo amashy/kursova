@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.Fracture = new System.Windows.Forms.PictureBox();
+            this.Haven = new System.Windows.Forms.PictureBox();
+            this.Split = new System.Windows.Forms.PictureBox();
+            this.Pearl = new System.Windows.Forms.PictureBox();
+            this.Icebox = new System.Windows.Forms.PictureBox();
+            this.Ascent = new System.Windows.Forms.PictureBox();
             this.info_icon = new System.Windows.Forms.PictureBox();
             this.gradientPanel1 = new kursova.GradientPanel();
             this.close_icon = new System.Windows.Forms.Label();
@@ -45,88 +45,94 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.Fracture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Haven)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Split)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pearl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Icebox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ascent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.info_icon)).BeginInit();
             this.gradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // Fracture
             // 
-            this.pictureBox1.BackgroundImage = global::kursova.Properties.Resources.fracture_map;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 78);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.Fracture.BackgroundImage = global::kursova.Properties.Resources.fracture_map;
+            this.Fracture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Fracture.Location = new System.Drawing.Point(26, 78);
+            this.Fracture.Name = "Fracture";
+            this.Fracture.Size = new System.Drawing.Size(234, 138);
+            this.Fracture.TabIndex = 0;
+            this.Fracture.TabStop = false;
+            this.Fracture.Click += new System.EventHandler(this.Fracture_Click);
             // 
-            // pictureBox2
+            // Haven
             // 
-            this.pictureBox2.BackgroundImage = global::kursova.Properties.Resources.heaven_map;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(554, 262);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.Haven.BackgroundImage = global::kursova.Properties.Resources.heaven_map;
+            this.Haven.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Haven.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Haven.Location = new System.Drawing.Point(581, 262);
+            this.Haven.Name = "Haven";
+            this.Haven.Size = new System.Drawing.Size(234, 138);
+            this.Haven.TabIndex = 1;
+            this.Haven.TabStop = false;
+            this.Haven.Click += new System.EventHandler(this.Haven_Click);
             // 
-            // pictureBox3
+            // Split
             // 
-            this.pictureBox3.BackgroundImage = global::kursova.Properties.Resources.split_map;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(283, 262);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.Split.BackgroundImage = global::kursova.Properties.Resources.split_map;
+            this.Split.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Split.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Split.Location = new System.Drawing.Point(299, 262);
+            this.Split.Name = "Split";
+            this.Split.Size = new System.Drawing.Size(234, 138);
+            this.Split.TabIndex = 2;
+            this.Split.TabStop = false;
+            this.Split.Click += new System.EventHandler(this.Split_Click);
             // 
-            // pictureBox4
+            // Pearl
             // 
-            this.pictureBox4.BackgroundImage = global::kursova.Properties.Resources.peral_map;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 262);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.Pearl.BackgroundImage = global::kursova.Properties.Resources.peral_map;
+            this.Pearl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pearl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Pearl.Location = new System.Drawing.Point(26, 262);
+            this.Pearl.Name = "Pearl";
+            this.Pearl.Size = new System.Drawing.Size(234, 138);
+            this.Pearl.TabIndex = 3;
+            this.Pearl.TabStop = false;
+            this.Pearl.Click += new System.EventHandler(this.Pearl_Click);
             // 
-            // pictureBox5
+            // Icebox
             // 
-            this.pictureBox5.BackgroundImage = global::kursova.Properties.Resources.icebox_map;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(554, 78);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.Icebox.BackgroundImage = global::kursova.Properties.Resources.icebox_map;
+            this.Icebox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Icebox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Icebox.Location = new System.Drawing.Point(581, 78);
+            this.Icebox.Name = "Icebox";
+            this.Icebox.Size = new System.Drawing.Size(234, 138);
+            this.Icebox.TabIndex = 4;
+            this.Icebox.TabStop = false;
+            this.Icebox.Click += new System.EventHandler(this.Icebox_Click);
             // 
-            // pictureBox6
+            // Ascent
             // 
-            this.pictureBox6.BackgroundImage = global::kursova.Properties.Resources.ascent_map;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Location = new System.Drawing.Point(283, 78);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(234, 138);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.Ascent.BackgroundImage = global::kursova.Properties.Resources.ascent_map;
+            this.Ascent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ascent.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Ascent.Location = new System.Drawing.Point(299, 78);
+            this.Ascent.Name = "Ascent";
+            this.Ascent.Size = new System.Drawing.Size(234, 138);
+            this.Ascent.TabIndex = 5;
+            this.Ascent.TabStop = false;
+            this.Ascent.Click += new System.EventHandler(this.Ascent_Click);
             // 
             // info_icon
             // 
             this.info_icon.BackgroundImage = global::kursova.Properties.Resources.question_mark;
             this.info_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.info_icon.Location = new System.Drawing.Point(773, 430);
+            this.info_icon.Location = new System.Drawing.Point(822, 503);
             this.info_icon.Name = "info_icon";
             this.info_icon.Size = new System.Drawing.Size(27, 24);
             this.info_icon.TabIndex = 7;
@@ -143,7 +149,7 @@
             this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(800, 52);
+            this.gradientPanel1.Size = new System.Drawing.Size(844, 52);
             this.gradientPanel1.TabIndex = 6;
             this.gradientPanel1.TopColor = System.Drawing.Color.White;
             // 
@@ -152,7 +158,7 @@
             this.close_icon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
             this.close_icon.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.close_icon.ForeColor = System.Drawing.Color.Black;
-            this.close_icon.Location = new System.Drawing.Point(773, 0);
+            this.close_icon.Location = new System.Drawing.Point(817, 0);
             this.close_icon.Name = "close_icon";
             this.close_icon.Size = new System.Drawing.Size(27, 25);
             this.close_icon.TabIndex = 19;
@@ -179,7 +185,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 52);
+            this.label1.Size = new System.Drawing.Size(844, 52);
             this.label1.TabIndex = 0;
             this.label1.Text = "Оберіть карту";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -190,7 +196,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label2.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label2.Location = new System.Drawing.Point(76, 219);
+            this.label2.Location = new System.Drawing.Point(90, 219);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 8;
@@ -202,7 +208,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label4.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label4.Location = new System.Drawing.Point(630, 219);
+            this.label4.Location = new System.Drawing.Point(647, 219);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 23);
             this.label4.TabIndex = 10;
@@ -214,7 +220,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label3.Location = new System.Drawing.Point(350, 219);
+            this.label3.Location = new System.Drawing.Point(366, 219);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 23);
             this.label3.TabIndex = 11;
@@ -226,7 +232,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label5.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label5.Location = new System.Drawing.Point(76, 403);
+            this.label5.Location = new System.Drawing.Point(90, 403);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 23);
             this.label5.TabIndex = 12;
@@ -238,24 +244,38 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label6.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label6.Location = new System.Drawing.Point(350, 403);
+            this.label6.Location = new System.Drawing.Point(366, 403);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 23);
             this.label6.TabIndex = 13;
             this.label6.Text = "Split";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label7.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(67)))), ((int)(((byte)(87)))));
-            this.label7.Location = new System.Drawing.Point(630, 403);
+            this.label7.Location = new System.Drawing.Point(647, 403);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 23);
             this.label7.TabIndex = 14;
-            this.label7.Text = "Heaven";
+            this.label7.Text = "Haven";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(327, 465);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(184, 37);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Обрати";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MapSelect
             // 
@@ -263,29 +283,32 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::kursova.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(844, 526);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.Ascent);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.info_icon);
             this.Controls.Add(this.gradientPanel1);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Icebox);
+            this.Controls.Add(this.Pearl);
+            this.Controls.Add(this.Split);
+            this.Controls.Add(this.Haven);
+            this.Controls.Add(this.Fracture);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MapSelect";
             this.Text = "MapSelect";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.Load += new System.EventHandler(this.MapSelect_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Fracture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Haven)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Split)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pearl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Icebox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ascent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.info_icon)).EndInit();
             this.gradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.back_arrow)).EndInit();
@@ -295,12 +318,12 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox Fracture;
+        private System.Windows.Forms.PictureBox Haven;
+        private System.Windows.Forms.PictureBox Split;
+        private System.Windows.Forms.PictureBox Pearl;
+        private System.Windows.Forms.PictureBox Icebox;
+        private System.Windows.Forms.PictureBox Ascent;
         private GradientPanel gradientPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox back_arrow;
@@ -312,5 +335,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
     }
 }

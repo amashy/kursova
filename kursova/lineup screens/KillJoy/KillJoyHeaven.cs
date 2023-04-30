@@ -54,5 +54,12 @@ namespace kursova
             Process.Start("https://lineupsvalorant.com/?id=76");
 
         }
+
+        private void back_arrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapSelect mapSelect = new MapSelect();
+            mapSelect.Show();
+        }
     }
 }
